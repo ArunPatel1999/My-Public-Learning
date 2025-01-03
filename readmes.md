@@ -1,3 +1,9 @@
+# Elastic Stack
+- [ELK](Command%20and%20Instruction/ELK/README.md)
+
+# Hacking
+- [Hacking First](Command%20and%20Instruction/Hacking/README.md)
+
 # Core
 - [Core Java features](Java/Core/Core_Java_Features/README.md)
 
