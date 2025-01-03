@@ -24,6 +24,7 @@ apt install mysql-server
 create user 'username'@'%' identified by 'password'
 grant all privileges on *.* to 'username'@'%'with grant option;
 flush privileges;
+
 ================Download Oracle Jdk ===============
 1) download Linux .tar compreded from oracle 
 2) move on server
