@@ -1,12 +1,63 @@
-# My Multi-Framework Repository
+# My-Public-Repository
+Welcome to the My-Public-Repository folder. Below are the available projects:
+# Projects
 
-Welcome to my repository! Below are the projects available:
+- [Java](Java/)
+	<details>
+	<summary>Details</summary>
 
-## Projects
-
-- [Python](Python/)
-
-## How to Use This Repository
-
-1. Navigate to the folder of your choice by clicking the links above.
-2. Each folder contains its own `README.md` with setup and usage instructions.
+	# Java
+	Welcome to the Java folder. Below are the available projects:
+	# Projects
+	
+	- [J2EE](Java/J2EE/)
+		<details>
+		<summary>Details</summary>
+	
+		# J2EE
+		Welcome to the J2EE folder. Below are the available projects:
+		# Projects
+		
+		- [Student-Data-Enter-System-master](Java/J2EE/Student-Data-Enter-System-master/)
+			<details>
+			<summary>Details</summary>
+		
+			# Student-Data-Enter-System
+			
+			```
+			This Project JSP and Servel Code Which Is used create CRUD opration Realted to Student
+			``` 
+			</details> 
+		</details>
+	- [Spring Boot](Java/Spring%20Boot/)
+		<details>
+		<summary>Details</summary>
+	
+		# Spring Boot
+		Welcome to the Spring Boot folder. Below are the available projects:
+		# Projects
+		
+		- [Elasticsearch First](Java/Spring%20Boot/Elasticsearch%20First/)
+			<details>
+			<summary>Details</summary>
+		
+			# Elasticsearch First
+			
+			```
+			This Project Contain Basic Opration Realted to Elasticsearch and Spring Boot. 
+			
+			In this Project i performed this operation.
+			1) Configration Realted To Elastic search
+			
+			2) Product CRUD Opration like
+			  i) createIndex
+			  ii) findAll
+			  iii) findById
+			  iv) addProduct
+			  v) delete product and index
+			
+			3) And Bulk Opration like bulkRead and bulkWrite
+			``` 
+			</details> 
+		</details> 
+	</details>
