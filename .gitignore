@@ -73,6 +73,8 @@ Thumbs.db
 **/logs/
 **/.mvn/
 **/.idea/
+**mvnw
+**mvnw.cmd
 
 # Flutter specific
 **/build/
