@@ -44,7 +44,7 @@ public class CreateReadmeMd {
 		String childData = ""; 
 		for(String child : childs) {
 			String newUrl = getReplaceUrlForReadme(parentUrl, child);
-			childData += "\n- ["+getFolderName(child)+"]("+newUrl+")\n\t<details>\n\t<summary>Details</summary>\n\n"+replaceChiildContantUrl(newUrl, child)+" \n\t</details>";
+			childData += "\n- ["+getFolderName(child)+"]("+newUrl+")\n\t<details>\n\t<summary>Details</summary>\n\n"+replaceChiildContantUrl(newUrl, child)+" \n\t</details>\n";
 		}
   		return childData;
 	}

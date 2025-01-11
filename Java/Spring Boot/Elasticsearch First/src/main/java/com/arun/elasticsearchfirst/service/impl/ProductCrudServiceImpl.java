@@ -31,7 +31,7 @@ public class ProductCrudServiceImpl implements ProductCrudService {
     @Override
     public Object createIndex() throws IOException {
         System.out.println(elasticsearchClient.indices().create(x -> x.index(PRODUCT_INDEX)));
-        return "Index Created Succesfull";
+        return "Index Crelated Succesfull";
     }
 
     @Override

@@ -10,6 +10,39 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 	Welcome to the Command and Instruction folder. Below are the available projects:
 	# Projects
 	
+	- [Docker](Command%20and%20Instruction/Docker/)
+		<details>
+		<summary>Details</summary>
+	
+		# Docker
+		
+		```
+		In This Folder I am Storing Docker related commands
+		
+		1) Docker.txt 
+		  contain how to Docker Command
+		
+		2) Docker Software.txt 
+		  conatin multiple example like how pull the image and run 
+		
+		3) Compose.txt
+		  It is contain Docker Compose Realated Commands
+		
+		4) Docker Example
+		  it is contain build Docker image example like
+		  i) Core java
+		  ii) Jenkis with docker
+		  iii) Spring Boot Run Jar WIth Health Check
+		  iv) Spring boot with gredle without jar
+		  v) Spring boot with maven without jar
+		
+		5) Compose Example
+		  i) Site VIster 
+		      it is pulling redis and docker image and check how many people visited you website
+		
+		``` 
+		</details>
+	
 	- [ELK](Command%20and%20Instruction/ELK/)
 		<details>
 		<summary>Details</summary>
@@ -17,7 +50,7 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 		# ELK - Elastic Stack 
 		
 		```
-		In This Folder I am Storing elastic stack reated commands
+		In This Folder I am Storing elastic stack related commands
 		
 		1) Setup.txt 
 		  contain how to setup Elastic search on local
@@ -46,7 +79,7 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 		      grok_filter is filter which is run after loading data that is profmed filter opration
 		 
 		  iii) input_plugin 
-		      contain api_call reated configration which used to load data in elasticsearch
+		      contain api_call related configration which used to load data in elasticsearch
 		 
 		  iv) Json 
 		      that is contain Json realeted data config how to load Json data
@@ -68,6 +101,7 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 		
 		``` 
 		</details>
+	
 	- [Hacking](Command%20and%20Instruction/Hacking/)
 		<details>
 		<summary>Details</summary>
@@ -75,13 +109,77 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 		# Hacking
 		
 		```
-		In This Folder I am Storing Hacking reated Thing
+		In This Folder I am Storing Hacking related Thing
 		
 		1) Hacking - First.docx conatin
 		  i) Wifi -> Dictionary Attack, MAN-IN_MIDDLE ATTACK
 		
 		``` 
 		</details>
+	
+	- [Kafka](Command%20and%20Instruction/Kafka/)
+		<details>
+		<summary>Details</summary>
+	
+		# Kafka
+		
+		```
+		In This Folder I am Storing Kafka related commands
+		
+		1) Properts.txt 
+		  that is contain some Properts explaination that belong to zookeper
+		
+		2) new kafka.txt 
+		  it is contain kafka command for new version 
+		
+		3) kafka.txt
+		  it is contain kafka command for old version 
+		
+		4) kafka configration.txt 
+		  that is contain some kafka Properts explaination
+		
+		
+		4) Kafka Docker Folder
+		  it is contain how to run kafka in docker
+		  i) cluster
+		  ii) compose
+		  iii) image
+		  iv) sasl-plain
+		  v) sasl-ssl
+		
+		``` 
+		</details>
+	
+	- [Kubernetes](Command%20and%20Instruction/Kubernetes/)
+		<details>
+		<summary>Details</summary>
+	
+		# Kubernetes
+		
+		```
+		In This Folder I am Storing Kubernetes related commands
+		
+		1) minikube.txt 
+		  that is contain some minikube related command
+		
+		2) Kubernetes YAML.txt 
+		  it is contain step how to create Kubernetes yaml 
+		
+		3) kubectl.txt
+		  it is contain kubectl command 
+		
+		4) Before Kubernetes Start.txt 
+		  Before Kubernetes Start help to setup kubernet in local linux means in VMBox
+		
+		
+		4) YMLS Folder
+		  it is contain multiple example of yaml
+		  i) nignx
+		  ii) voting
+		
+		``` 
+		</details>
+	
 	- [Linux](Command%20and%20Instruction/Linux/)
 		<details>
 		<summary>Details</summary>
@@ -89,7 +187,7 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 		# Linux 
 		
 		```
-		In This Folder I am Storing Linux reated commands
+		In This Folder I am Storing Linux related commands
 		
 		1) Linux Basic  
 		    contain basic linux related command like Dir, Base File, User Managment, Application, Searching, Process, Storage
@@ -117,8 +215,10 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 		        j) access backend with domain without port
 		
 		``` 
-		</details> 
+		</details>
+	 
 	</details>
+
 - [Java](Java/)
 	<details>
 	<summary>Details</summary>
@@ -150,8 +250,10 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 			
 			2) README.md Generator that is follow bottom to top aproch it is copy all child README.md data and add in parent
 			``` 
-			</details> 
+			</details>
+		 
 		</details>
+	
 	- [J2EE](Java/J2EE/)
 		<details>
 		<summary>Details</summary>
@@ -169,8 +271,10 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 			```
 			This Project JSP and Servel Code Which Is used create CRUD opration Realted to Student
 			``` 
-			</details> 
+			</details>
+		 
 		</details>
+	
 	- [Spring Boot](Java/Spring%20Boot/)
 		<details>
 		<summary>Details</summary>
@@ -200,6 +304,9 @@ Welcome to the My-Public-Repository folder. Below are the available projects:
 			
 			3) And Bulk Opration like bulkRead and bulkWrite
 			``` 
-			</details> 
-		</details> 
+			</details>
+		 
+		</details>
+	 
 	</details>
+

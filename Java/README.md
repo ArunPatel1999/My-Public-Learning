@@ -25,8 +25,10 @@ Welcome to the Java folder. Below are the available projects:
 		
 		2) README.md Generator that is follow bottom to top aproch it is copy all child README.md data and add in parent
 		``` 
-		</details> 
+		</details>
+	 
 	</details>
+
 - [J2EE](J2EE/)
 	<details>
 	<summary>Details</summary>
@@ -44,8 +46,10 @@ Welcome to the Java folder. Below are the available projects:
 		```
 		This Project JSP and Servel Code Which Is used create CRUD opration Realted to Student
 		``` 
-		</details> 
+		</details>
+	 
 	</details>
+
 - [Spring Boot](Spring%20Boot/)
 	<details>
 	<summary>Details</summary>
@@ -75,5 +79,7 @@ Welcome to the Java folder. Below are the available projects:
 		
 		3) And Bulk Opration like bulkRead and bulkWrite
 		``` 
-		</details> 
+		</details>
+	 
 	</details>
+

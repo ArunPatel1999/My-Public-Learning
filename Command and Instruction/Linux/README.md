@@ -1,7 +1,7 @@
 # Linux 
 
 ```
-In This Folder I am Storing Linux reated commands
+In This Folder I am Storing Linux related commands
 
 1) Linux Basic  
     contain basic linux related command like Dir, Base File, User Managment, Application, Searching, Process, Storage

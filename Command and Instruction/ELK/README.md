@@ -1,7 +1,7 @@
 # ELK - Elastic Stack 
 
 ```
-In This Folder I am Storing elastic stack reated commands
+In This Folder I am Storing elastic stack related commands
 
 1) Setup.txt 
   contain how to setup Elastic search on local
@@ -30,7 +30,7 @@ In This Folder I am Storing elastic stack reated commands
       grok_filter is filter which is run after loading data that is profmed filter opration
  
   iii) input_plugin 
-      contain api_call reated configration which used to load data in elasticsearch
+      contain api_call related configration which used to load data in elasticsearch
  
   iv) Json 
       that is contain Json realeted data config how to load Json data
