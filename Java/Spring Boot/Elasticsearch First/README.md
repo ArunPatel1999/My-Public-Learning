@@ -1,10 +1,11 @@
 # Elasticsearch First
 
 ```
-This Project Contain Basic Opration Realted to Elasticsearch and Spring Boot. 
+This project contains basic operations related to Elasticsearch and Spring Boot.
 
-In this Project i performed this operation.
-1) Configration Realted To Elastic search
+In this project, I performed the following operations:
+
+1) Configuration related to Elasticsearch.
 
 2) Product CRUD Opration like
   i) createIndex
@@ -13,5 +14,5 @@ In this Project i performed this operation.
   iv) addProduct
   v) delete product and index
 
-3) And Bulk Opration like bulkRead and bulkWrite
+3) Bulk operations, such as bulkRead and bulkWrite
 ```

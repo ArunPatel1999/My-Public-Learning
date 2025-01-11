@@ -1,0 +1,4 @@
+server:  port: 8081
+
+management:  endpoints:    web:      exposure:        include: "*"  eureka:  instance:    hostname: localhost    prefer-ip-address: true
+spring:  application:    name: Api-Getwaya  cloud:    gateway:      routes:      - id: USER        uri: lb://USER        predicates:        - Path=/api/user/**      - id: GOALS        uri: lb://GOALS        predicates:        - Path=/api/goals/**      - id: MICROSAVING        uri: lb://MICROSAVING        predicates:        - Path=/api/saving/**                  

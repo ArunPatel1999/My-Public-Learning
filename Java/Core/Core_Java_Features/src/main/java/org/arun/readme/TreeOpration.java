@@ -24,14 +24,14 @@ public class TreeOpration {
 		parentNode.addChild(childNode);
 	}
 
-	public List<Map.Entry<String, Set<String>>> bottomToTopTraversal() {
+	public List<Map.Entry<String, Set<String>>> bottomToTopTraversal(String projectFolder) {
 		if (nodeMap.isEmpty())
 			return Collections.emptyList();
 
 		Queue<TreeNode> queue = new LinkedList<>();
 		Map<String, Set<String>> result = new LinkedHashMap<>();
 		
-		queue.add(nodeMap.get(GenerateReadmeMd.ROOT_DIR));
+		queue.add(nodeMap.get(projectFolder));
 
 		while (!queue.isEmpty()) {
 			int levelSize = queue.size();

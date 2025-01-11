@@ -13,8 +13,8 @@ import lombok.experimental.UtilityClass;
 @UtilityClass
 public class CreateReadmeMd {
 
-	public static void createNewReadmeMd() {
-		var parentChilds = TreeOpration.bottomToTopTraversal();
+	public static void createNewReadmeMd(String projectFolder) {
+		var parentChilds = TreeOpration.bottomToTopTraversal(projectFolder);
 		while (!parentChilds.isEmpty()) {
 			var data = parentChilds.removeFirst();
 			if(!data.getValue().isEmpty()) {

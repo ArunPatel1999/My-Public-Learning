@@ -9,28 +9,28 @@ Welcome to the Command and Instruction folder. Below are the available projects:
 	# Docker
 	
 	```
-	In This Folder I am Storing Docker related commands
+	In this folder, I am storing Docker-related commands.
 	
-	1) Docker.txt 
-	  contain how to Docker Command
+	1) Docker.txt  
+	   Contains Docker commands.
 	
-	2) Docker Software.txt 
-	  conatin multiple example like how pull the image and run 
+	2) Docker Software.txt  
+	   Contains multiple examples, such as how to pull an image and run it.
 	
-	3) Compose.txt
-	  It is contain Docker Compose Realated Commands
+	3) Compose.txt  
+	   Contains Docker Compose-related commands.
 	
-	4) Docker Example
-	  it is contain build Docker image example like
-	  i) Core java
-	  ii) Jenkis with docker
-	  iii) Spring Boot Run Jar WIth Health Check
-	  iv) Spring boot with gredle without jar
-	  v) Spring boot with maven without jar
+	4) Docker Examples  
+	   Contains examples for building Docker images, such as:
+	   i) Core Java  
+	   ii) Jenkins with Docker  
+	   iii) Spring Boot with JAR and Health Check  
+	   iv) Spring Boot with Gradle (without JAR)  
+	   v) Spring Boot with Maven (without JAR)
 	
-	5) Compose Example
-	  i) Site VIster 
-	      it is pulling redis and docker image and check how many people visited you website
+	5) Compose Example  
+	   i) Site Visitor  
+	      This example pulls Redis and Docker images to check how many people visited your website.
 	
 	``` 
 	</details>
@@ -42,54 +42,56 @@ Welcome to the Command and Instruction folder. Below are the available projects:
 	# ELK - Elastic Stack 
 	
 	```
-	In This Folder I am Storing elastic stack related commands
+	In this folder, I am storing Elastic Stack-related commands.
 	
-	1) Setup.txt 
-	  contain how to setup Elastic search on local
+	1) Setup.txt  
+	   Contains instructions on how to set up Elasticsearch locally.
 	
-	2) ElasticsSearch.docx 
-	  conatin multiple word which is using elastic search and explain when we need to use which qquery and comnfig
+	2) Elasticsearch.docx  
+	   Contains multiple use cases for Elasticsearch and explains which queries and configurations to use in different scenarios.
 	
-	3) FileBeat Folder
-	  It is contain filebeat.yml that is conain filebeat configration
+	3) FileBeat Folder  
+	   Contains the `filebeat.yml` configuration file for Filebeat.
 	
-	4) HeartBeat folder
-	  i) heartbeat.yml 
-	      that is contain heartbeat.yml realated configration
+	4) Heartbeat Folder  
+	   i) `heartbeat.yml`  
+	      Contains configuration related to Heartbeat.  
+	      
+	   ii) `http_dashboard.ndjson`  
+	      Contains configuration for the Heartbeat dashboard.
+	      
+	   iii) `my_first.yml`  
+	      Contains a demo configuration for Elasticsearch Heartbeat.
 	
-	  ii) http_dashboard.ndjsson 
-	      that is dashboard related configration of heartbeat
-	  
-	  iii) my_first.yml
-	      is contain demo configration for elastic search heartbeat
+	5) Logstash Configuration  
+	   Contains demo configurations for Logstash.  
 	
-	5) Logstracs_Configration conatin demo of configration
-	  i) CSV 
-	      that is contain how to load CSV file config and data
-	 
-	  ii) grok_filter
-	      grok_filter is filter which is run after loading data that is profmed filter opration
-	 
-	  iii) input_plugin 
-	      contain api_call related configration which used to load data in elasticsearch
-	 
-	  iv) Json 
-	      that is contain Json realeted data config how to load Json data
-	 
-	  v) kafka
-	      it used to consume data from topics
-	  
-	  vi) logs
-	      demo to load logs in elastic search
+	   i) CSV  
+	      Explains how to load CSV file configuration and data.  
+	      
+	   ii) Grok Filter  
+	      The `grok_filter` is applied after loading data to perform filtering operations.  
+	      
+	   iii) Input Plugin  
+	      Contains API call-related configurations used to load data into Elasticsearch.  
+	      
+	   iv) JSON  
+	      Contains JSON-related data configurations and how to load JSON data into Elasticsearch.  
+	      
+	   v) Kafka  
+	      Used to consume data from Kafka topics.  
+	      
+	   vi) logsConfig  
+	      Demonstrates how to load logs into Elasticsearch.  
+	      
+	   vii) MySQL  
+	      Configurations related to MySQL operations, such as triggering new actions when data is added.  
+	      
+	   viii) S3  
+	      Contains S3 configurations and triggers for operations.
 	
-	  vii) Mysql
-	      for mysql realeted oprtion like if some one add data thenn you can trigger new oprationn
-	
-	  viii) S3
-	      contain s3 config and tigger after any opration
-	
-	6) Other logstars setting.txt
-	    that is conatin url for testing logstres
+	6) Other Logstash Settings.txt  
+	   Contains URLs for testing Logstash.
 	
 	``` 
 	</details>
@@ -101,10 +103,10 @@ Welcome to the Command and Instruction folder. Below are the available projects:
 	# Hacking
 	
 	```
-	In This Folder I am Storing Hacking related Thing
+	In this folder, I am storing hacking-related materials.
 	
-	1) Hacking - First.docx conatin
-	  i) Wifi -> Dictionary Attack, MAN-IN_MIDDLE ATTACK
+	1) Hacking - First.docx contains:
+	   i) Wi-Fi -> Dictionary Attack, Man-in-the-Middle Attack
 	
 	``` 
 	</details>
@@ -116,28 +118,27 @@ Welcome to the Command and Instruction folder. Below are the available projects:
 	# Kafka
 	
 	```
-	In This Folder I am Storing Kafka related commands
+	In this folder, I am storing Kafka-related commands.
 	
-	1) Properts.txt 
-	  that is contain some Properts explaination that belong to zookeper
+	1) Properties.txt  
+	   Contains explanations of some properties related to Zookeeper.
 	
-	2) new kafka.txt 
-	  it is contain kafka command for new version 
+	2) New Kafka.txt  
+	   Contains Kafka commands for the new version.
 	
-	3) kafka.txt
-	  it is contain kafka command for old version 
+	3) Kafka.txt  
+	   Contains Kafka commands for the old version.
 	
-	4) kafka configration.txt 
-	  that is contain some kafka Properts explaination
+	4) Kafka Configuration.txt  
+	   Contains explanations of some Kafka properties.
 	
-	
-	4) Kafka Docker Folder
-	  it is contain how to run kafka in docker
-	  i) cluster
-	  ii) compose
-	  iii) image
-	  iv) sasl-plain
-	  v) sasl-ssl
+	5) Kafka Docker Folder  
+	   Contains instructions on how to run Kafka in Docker.
+	   i) Cluster setup  
+	   ii) Compose configuration  
+	   iii) Image setup  
+	   iv) SASL-Plain authentication  
+	   v) SASL-SSL authentication
 	
 	``` 
 	</details>
@@ -149,25 +150,24 @@ Welcome to the Command and Instruction folder. Below are the available projects:
 	# Kubernetes
 	
 	```
-	In This Folder I am Storing Kubernetes related commands
+	In this folder, I am storing Kubernetes-related commands.
 	
-	1) minikube.txt 
-	  that is contain some minikube related command
+	1) minikube.txt  
+	   Contains minikube-related commands.
 	
-	2) Kubernetes YAML.txt 
-	  it is contain step how to create Kubernetes yaml 
+	2) Kubernetes YAML.txt  
+	   Contains steps on how to create Kubernetes YAML files.
 	
-	3) kubectl.txt
-	  it is contain kubectl command 
+	3) kubectl.txt  
+	   Contains kubectl commands.
 	
-	4) Before Kubernetes Start.txt 
-	  Before Kubernetes Start help to setup kubernet in local linux means in VMBox
+	4) Before Kubernetes Start.txt  
+	   Provides instructions for setting up Kubernetes locally on Linux (in VMBox).
 	
-	
-	4) YMLS Folder
-	  it is contain multiple example of yaml
-	  i) nignx
-	  ii) voting
+	5) YAMLs Folder  
+	   Contains multiple examples of YAML files, such as:
+	   i) Nginx  
+	   ii) Voting
 	
 	``` 
 	</details>
@@ -179,32 +179,32 @@ Welcome to the Command and Instruction folder. Below are the available projects:
 	# Linux 
 	
 	```
-	In This Folder I am Storing Linux related commands
+	In this folder, I am storing Linux-related commands.
 	
-	1) Linux Basic  
-	    contain basic linux related command like Dir, Base File, User Managment, Application, Searching, Process, Storage
+	1) Linux Basics  
+	    Contains basic Linux commands, such as Directory navigation, File management, User Management, Applications, Searching, Processes, and Storage.
 	
-	2) CentOs
-	    i) Setup cluster using Docker-swarm-setup-.pdf
-	    ii) CentOs.txt
-	        a) setup command
-	        b) firewall setting & change
-	        c) Channge root@loaclhost
+	2) CentOS
+	    i) Setup Cluster using Docker Swarm Setup (docker-swarm-setup.pdf)
+	    ii) CentOS.txt
+	        a) Setup commands
+	        b) Firewall settings & changes
+	        c) Change root@localhost credentials
 	
 	3) Ubuntu 
-	    i) VMBOX that is conatin Shared Folder  commmand
-	   
-	    ii) Ubuntu server conatin
-	        a) Create new User
-	        b) No Password based Access
-	        c) MySql installtion and config
-	        d) Download Oracle JDK / Open Jdk
+	    i) VMBox: Contains shared folder commands
+	    
+	    ii) Ubuntu Server contains:
+	        a) Create a new user
+	        b) Disable password-based access
+	        c) MySQL installation and configuration
+	        d) Download Oracle JDK / OpenJDK
 	        e) Install Tomcat
-	        f) Host servelt jsp without server
-	        g) RUN Project in background and automatical create Service
-	        h) nginx
-	        i) free ssl
-	        j) access backend with domain without port
+	        f) Host Servlet/JSP without a server
+	        g) Run projects in the background and automatically create a service
+	        h) Nginx installation and configuration
+	        i) Free SSL setup
+	        j) Access the backend with a domain, without specifying the port
 	
 	``` 
 	</details>

@@ -1,24 +1,23 @@
 # Kubernetes
 
 ```
-In This Folder I am Storing Kubernetes related commands
+In this folder, I am storing Kubernetes-related commands.
 
-1) minikube.txt 
-  that is contain some minikube related command
+1) minikube.txt  
+   Contains minikube-related commands.
 
-2) Kubernetes YAML.txt 
-  it is contain step how to create Kubernetes yaml 
+2) Kubernetes YAML.txt  
+   Contains steps on how to create Kubernetes YAML files.
 
-3) kubectl.txt
-  it is contain kubectl command 
+3) kubectl.txt  
+   Contains kubectl commands.
 
-4) Before Kubernetes Start.txt 
-  Before Kubernetes Start help to setup kubernet in local linux means in VMBox
+4) Before Kubernetes Start.txt  
+   Provides instructions for setting up Kubernetes locally on Linux (in VMBox).
 
-
-4) YMLS Folder
-  it is contain multiple example of yaml
-  i) nignx
-  ii) voting
+5) YAMLs Folder  
+   Contains multiple examples of YAML files, such as:
+   i) Nginx  
+   ii) Voting
 
 ```

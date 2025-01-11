@@ -1,53 +1,55 @@
 # ELK - Elastic Stack 
 
 ```
-In This Folder I am Storing elastic stack related commands
+In this folder, I am storing Elastic Stack-related commands.
 
-1) Setup.txt 
-  contain how to setup Elastic search on local
+1) Setup.txt  
+   Contains instructions on how to set up Elasticsearch locally.
 
-2) ElasticsSearch.docx 
-  conatin multiple word which is using elastic search and explain when we need to use which qquery and comnfig
+2) Elasticsearch.docx  
+   Contains multiple use cases for Elasticsearch and explains which queries and configurations to use in different scenarios.
 
-3) FileBeat Folder
-  It is contain filebeat.yml that is conain filebeat configration
+3) FileBeat Folder  
+   Contains the `filebeat.yml` configuration file for Filebeat.
 
-4) HeartBeat folder
-  i) heartbeat.yml 
-      that is contain heartbeat.yml realated configration
+4) Heartbeat Folder  
+   i) `heartbeat.yml`  
+      Contains configuration related to Heartbeat.  
+      
+   ii) `http_dashboard.ndjson`  
+      Contains configuration for the Heartbeat dashboard.
+      
+   iii) `my_first.yml`  
+      Contains a demo configuration for Elasticsearch Heartbeat.
 
-  ii) http_dashboard.ndjsson 
-      that is dashboard related configration of heartbeat
-  
-  iii) my_first.yml
-      is contain demo configration for elastic search heartbeat
+5) Logstash Configuration  
+   Contains demo configurations for Logstash.  
 
-5) Logstracs_Configration conatin demo of configration
-  i) CSV 
-      that is contain how to load CSV file config and data
- 
-  ii) grok_filter
-      grok_filter is filter which is run after loading data that is profmed filter opration
- 
-  iii) input_plugin 
-      contain api_call related configration which used to load data in elasticsearch
- 
-  iv) Json 
-      that is contain Json realeted data config how to load Json data
- 
-  v) kafka
-      it used to consume data from topics
-  
-  vi) logs
-      demo to load logs in elastic search
+   i) CSV  
+      Explains how to load CSV file configuration and data.  
+      
+   ii) Grok Filter  
+      The `grok_filter` is applied after loading data to perform filtering operations.  
+      
+   iii) Input Plugin  
+      Contains API call-related configurations used to load data into Elasticsearch.  
+      
+   iv) JSON  
+      Contains JSON-related data configurations and how to load JSON data into Elasticsearch.  
+      
+   v) Kafka  
+      Used to consume data from Kafka topics.  
+      
+   vi) logsConfig  
+      Demonstrates how to load logs into Elasticsearch.  
+      
+   vii) MySQL  
+      Configurations related to MySQL operations, such as triggering new actions when data is added.  
+      
+   viii) S3  
+      Contains S3 configurations and triggers for operations.
 
-  vii) Mysql
-      for mysql realeted oprtion like if some one add data thenn you can trigger new oprationn
-
-  viii) S3
-      contain s3 config and tigger after any opration
-
-6) Other logstars setting.txt
-    that is conatin url for testing logstres
+6) Other Logstash Settings.txt  
+   Contains URLs for testing Logstash.
 
 ```

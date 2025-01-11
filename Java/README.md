@@ -17,13 +17,15 @@ Welcome to the Java folder. Below are the available projects:
 		# Core Java Features
 		
 		```
-		This Project Contain Java Realted Code and Feture Testing and Other Type Testing 
+		This project contains Java-related code, feature testing, and other types of testing.
 		
-		In this Project i performed this operation.
-		1) CollectionsMethod that is contain ```Collections``` method
-		  i) frequnecy of accurence of caracter
+		In this project, I performed the following operations:
 		
-		2) README.md Generator that is follow bottom to top aproch it is copy all child README.md data and add in parent
+		1) CollectionsMethod that contains `Collections` methods:
+		   i) Frequency of occurrence of a character.
+		
+		2) README.md Generator that follows a bottom-to-top approach: it copies all child README.md data and adds it to the parent.
+		
 		``` 
 		</details>
 	 
@@ -44,7 +46,36 @@ Welcome to the Java folder. Below are the available projects:
 		# Student-Data-Enter-System
 		
 		```
-		This Project JSP and Servel Code Which Is used create CRUD opration Realted to Student
+		This project contains JSP and Servlet code used to create CRUD operations related to students.
+		
+		``` 
+		</details>
+	 
+	</details>
+
+- [Microservices](Microservices/)
+	<details>
+	<summary>Details</summary>
+
+	# Microservices
+	Welcome to the Microservices folder. Below are the available projects:
+	# Projects
+	
+	- [Manage-financial-goals](Microservices/Manage-financial-goals/)
+		<details>
+		<summary>Details</summary>
+	
+		# Manage-financial-goals
+		
+		```
+		This project is built using Spring Boot and a Microservice Architecture.
+		In the project, we have:
+		1) Api Getwaya
+		2) Eureka Server
+		3) Goals
+		4) MicroSaving Service
+		5) User Service 
+		
 		``` 
 		</details>
 	 
@@ -65,10 +96,11 @@ Welcome to the Java folder. Below are the available projects:
 		# Elasticsearch First
 		
 		```
-		This Project Contain Basic Opration Realted to Elasticsearch and Spring Boot. 
+		This project contains basic operations related to Elasticsearch and Spring Boot.
 		
-		In this Project i performed this operation.
-		1) Configration Realted To Elastic search
+		In this project, I performed the following operations:
+		
+		1) Configuration related to Elasticsearch.
 		
 		2) Product CRUD Opration like
 		  i) createIndex
@@ -77,7 +109,7 @@ Welcome to the Java folder. Below are the available projects:
 		  iv) addProduct
 		  v) delete product and index
 		
-		3) And Bulk Opration like bulkRead and bulkWrite
+		3) Bulk operations, such as bulkRead and bulkWrite
 		``` 
 		</details>
 	 

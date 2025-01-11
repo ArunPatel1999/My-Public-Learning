@@ -1,0 +1,10 @@
+server:
+  port: 0
+spring:
+  application:
+    name: USER
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true

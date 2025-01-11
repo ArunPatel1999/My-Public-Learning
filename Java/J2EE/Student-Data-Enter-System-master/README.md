@@ -1,5 +1,6 @@
 # Student-Data-Enter-System
 
 ```
-This Project JSP and Servel Code Which Is used create CRUD opration Realted to Student
+This project contains JSP and Servlet code used to create CRUD operations related to students.
+
 ```

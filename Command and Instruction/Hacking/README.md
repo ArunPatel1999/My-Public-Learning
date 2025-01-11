@@ -1,9 +1,9 @@
 # Hacking
 
 ```
-In This Folder I am Storing Hacking related Thing
+In this folder, I am storing hacking-related materials.
 
-1) Hacking - First.docx conatin
-  i) Wifi -> Dictionary Attack, MAN-IN_MIDDLE ATTACK
+1) Hacking - First.docx contains:
+   i) Wi-Fi -> Dictionary Attack, Man-in-the-Middle Attack
 
 ```
