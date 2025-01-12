@@ -1,0 +1,56 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  first-lamda-api
+
+  Sample SAM Template for first-lamda-api
+
+Globals:
+  Function:
+    Runtime: java8
+    MemorySize: 512
+    Timeout: 30
+    Environment:
+      Variables:
+        PRODUCT_TABLE: !Ref ProductTable       
+
+
+Resources:
+  ProductTable:
+    Type: AWS::Serverless::LamdaProductTabble
+    Properties:
+      PrimaryKey: 
+        Name: id
+        Type: Number
+
+  GetAllProductFuncation:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: ordersapi
+      Handler: com.arun.controller.ProductController::getAll
+      Policies:
+        - DynamoDBReadPolicy:
+            TableName: !Ref ProductTable
+      Events:
+        OrderEvents:
+          Type: Api
+          Properties:
+            Path: /api/product
+            Method: GET
+
+  SaveProductFuncation:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: ordersapi
+      Handler: com.arun.controller.ProductController::save
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref ProductTable
+      Events:
+        OrderEvents:
+          Type: Api
+          Properties:
+            Path: /api/product
+            Method: POST
+
+     
