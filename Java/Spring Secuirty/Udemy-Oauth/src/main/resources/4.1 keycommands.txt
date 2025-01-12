@@ -1,0 +1,8 @@
+keytool -genkeypair -alias jwtiscool -keyalg RSA -keypass jwtiscool -keystore jwtiscool.jks -storepass jwtiscool
+
+download openssl => https://code.google.com/archive/p/openssl-for-windows/downloads
+
+
+keytool -list -rfc --keystore jwtiscool.jks | "openssl-path" x509 -inform pem -pubkey
+
+

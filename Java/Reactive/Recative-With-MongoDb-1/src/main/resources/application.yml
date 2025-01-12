@@ -1,0 +1,26 @@
+Spring:
+  profiles:
+    active: dev
+
+server:
+  port: 9090
+      
+---    
+spring:
+  profiles: dev
+  data.mongodb:
+    host: localhost
+    port: 27017
+    database: reactive 
+    
+        
+
+---    
+spring:
+  profiles: test
+  data.mongodb:
+    host: localhost
+    port: 27017
+    database: reactive      
+
+  
