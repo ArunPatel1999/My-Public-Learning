@@ -35,7 +35,6 @@ public class StringToJsonConvter {
 	
 	@GetMapping("location")
 	public Object getLocation() throws RestClientException, JSONException  {
-//		String data  = restTemplate.getForEntity("https://maps.googleapis.com/maps/api/distancematrix/json?origins=19.28479917939414, 73.05490656212486&destinations=side_of_road:19.281532392017827, 73.0538151301136|19.275932623968195, 73.0712124158158&key=AIzaSyDMR1P0UFK1K_jzmNaw6TKlpPCzycDk9lg", String.class).getBody();    
 		String date = getJsonData();
 		
 		return JsonPath.read(date, "$.rows[0]..elements[0].distance.value");
