@@ -1,0 +1,46 @@
+images:
+    path: C:/apps/Demo/images
+management:
+    endpoints:
+        web:
+            expose: '*'
+            exposure:
+                include: '*'
+server:
+    port: 8085
+   
+    
+spring:
+    mvc:
+        view:
+            prefix: /WEB-INF/view/
+            suffix: .html
+    data:
+        mongodb:
+            authentication-database: admin
+            database: crudopration
+            host: localhost
+            password: localhost
+            port: 27017
+            username: localhost
+    jpa:
+        show-sql: true
+    servlet:
+        multipart:
+            max-file-size: 10GB
+            max-request-size: 10GB
+    profiles:
+     active: dev
+  
+---
+
+show:
+  profiles: dev
+  message: run on dev
+
+---
+show:
+  profiles: ser
+  message: run on server
+  
+

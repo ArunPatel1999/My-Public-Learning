@@ -1,0 +1,180 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>Core_Java_Code</groupId>
+	<artifactId>Core_Java_Code</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/com.github.sarxos/webcam-capture -->
+		<dependency>
+			<groupId>com.github.sarxos</groupId>
+			<artifactId>webcam-capture</artifactId>
+			<version>0.3.12</version>
+		</dependency>
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+		<dependency>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.23</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.github.techgnious</groupId>
+			<artifactId>IVCompressor</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.bramp.ffmpeg</groupId>
+			<artifactId>ffmpeg</artifactId>
+			<version>0.6.2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.0.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit -->
+		<dependency>
+			<groupId>org.eclipse.jgit</groupId>
+			<artifactId>org.eclipse.jgit</artifactId>
+			<version>5.11.0.202103091610-r</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.taksan/skype-java-api -->
+		<dependency>
+			<groupId>com.github.taksan</groupId>
+			<artifactId>skype-java-api</artifactId>
+			<version>1.7</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.mylyn.github/org.eclipse.egit.github.core -->
+		<!-- https://mvnrepository.com/artifact/com.jcabi/jcabi-github -->
+		<dependency>
+			<groupId>com.jcabi</groupId>
+			<artifactId>jcabi-github</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>javax.mail-api</artifactId>
+			<version>1.5.5</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.mail</groupId>
+			<artifactId>javax.mail</artifactId>
+			<version>1.5.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.zxing</groupId>
+			<artifactId>javase</artifactId>
+			<version>3.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.11.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>javax.mail-api</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.github.pengrad</groupId>
+			<artifactId>java-telegram-bot-api</artifactId>
+			<version>5.1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots</artifactId>
+			<version>3.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>forms</artifactId>
+			<version>7.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>pdfa</artifactId>
+			<version>7.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>sign</artifactId>
+			<version>7.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>barcodes</artifactId>
+			<version>7.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>font-asian</artifactId>
+			<version>7.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>hyph</artifactId>
+			<version>7.0.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.goxr3plus</groupId>
+			<artifactId>java-google-speech-api</artifactId>
+			<version>V2.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<release>14</release>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+</project>

@@ -1,0 +1,14 @@
+schema{
+query:Query
+
+type Query{
+ getAll : [User]
+}
+
+
+type User {
+	userId: Integer,
+	name: String,
+	email: String,
+	phone: String,
+}
