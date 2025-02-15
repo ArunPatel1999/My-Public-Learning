@@ -1,0 +1,16 @@
+spring:
+  profiles:   
+    active: native
+  application:
+    name: configration-serever
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/arunpateltsa/Testing-My-Name
+          clone-on-start: true
+server:
+  port: 8085
+    
+
+

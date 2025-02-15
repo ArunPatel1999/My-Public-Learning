@@ -1,0 +1,4 @@
+server:  port: 8080
+
+management:  endpoints:    web:      exposure:        include: "*"        eureka:  instance:    hostname: localhost        
+spring:  application:    name: Api-Getwaya  cloud:    gateway:      routes:      - id: PRIMERY-KEY        uri: lb://PRIMERY-KEY        predicates:        - Path=/api/primery/**      - id: USER        uri: lb://USER        predicates:        - Path=/api/user/**      - id: COMPANY        uri: lb://COMPANY        predicates:        - Path=/api/company/**                

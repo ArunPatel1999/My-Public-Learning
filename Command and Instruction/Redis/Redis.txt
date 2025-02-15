@@ -1,0 +1,45 @@
+set name name   -------set String and integer and float
+get name	-------get name
+getrange name 0 4 ------------substring 0 to 4
+strlen name        ----------- get len
+
+
+mset name name age 15 ------multipl set once
+mget name age 		------ multipl get
+
+set count 1
+incr count 		--------- increse by 1
+decr count		--------- decrese3 by 1
+incrby count 24 	--------- incre real number+24
+decrby count 24 	--------- decrese real number+24
+incrbyfloat count 1.1 	---------- increse real+1.1
+decrbyfloat count 1.1 	---------- decrese real+1.1
+
+expire count 10		------------ delete in 10 second
+ttl count		------------ expired time remain
+setex b 10 asfs		------------ set expired value in 10 second
+
+
+keys * 			--------------get all / * replace link
+flushall 		-------------- delete all keys
+
+============================= LIST ===========================
+
+lpush country India	--------------  push data in contry list left side
+rpush country UK	--------------  push data in contry list right side
+
+lpop country India	--------------  remove data in contry list left side
+rpop country UK		--------------  remove data in contry list right side
+
+lrange country 0 -1	-------------- 	get all data / -1 ending
+lindex  country 0 	--------------  get index value
+
+lset country 5 UA	--------------  update indiex value
+linsert country (before|after ) India UK -----------insert before aftere india
+
+lpushx country AAAAA	--------------- eneter when list is exisit another wish not
+
+
+sort country ALPHA	 ---------------- sort string asanding
+sort country desc ALPHA  ---------------- sort string descanding asanding
+

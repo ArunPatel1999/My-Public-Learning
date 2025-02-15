@@ -1,0 +1,49 @@
+server:
+  port: 8081
+  
+spring:
+  application:
+    name: ApiGetwaya
+  cloud:
+    gateway:
+      routes:
+        - id: user
+          uri: lb://user
+          predicates:
+            - Path=/user/**
+          filters:
+          - name: CircuitBreaker
+            args:
+               name: user
+               fallbackuri: forward:/userDown 
+        - id: contact
+          uri: lb://contact
+          predicates:
+            - Path=/contact/**
+          filters:
+          - name: CircuitBreaker
+            args:
+               name: contact
+               fallbackuri: forward:/contactDown                 
+     
+        
+
+
+
+hystrix:
+  command:
+    fallbackcmd:
+      excution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+
+
