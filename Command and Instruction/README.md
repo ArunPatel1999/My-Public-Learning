@@ -23,120 +23,97 @@ This repository contains hands-on learning materials for:
 
 ---
 
-## 📂 Detailed Contents
+<details>
+<summary>📂 Projects</summary>
 
-### 🐳 [Docker - Containerization Platform](Docker/)
-**Master container technology from basics to production deployments**
-- **Core Commands**: Complete Docker CLI reference with lifecycle management
-- **Docker Compose**: Multi-container application orchestration
-- **Practical Examples**: Real-world Dockerfiles for Java, Spring Boot, Jenkins
-- **Production Ready**: Health checks, networking, volume management
-- **Docker Swarm**: Cluster orchestration and scaling
+- [🐳 Docker](Docker/)
+	<details>
+	<summary>Containerization Platform</summary>
 
-### 📊 [ELK Stack - Elasticsearch, Logstash & Kibana](ELK/)
-**Build comprehensive logging and monitoring solutions**
-- **Elasticsearch**: Search engine setup, queries, and index management
-- **Logstash**: Data pipeline configurations for CSV, JSON, Kafka, MySQL, S3
-- **Kibana**: Dashboard creation and data visualization
-- **Beats**: Filebeat for log shipping, Heartbeat for uptime monitoring
-- **Integration**: Complete ELK pipeline with real-world examples
+	**Master container technology from basics to production deployments**
+	
+	- **What it does**: Container management, image building, multi-container orchestration
+	- **Key tech**: Docker CLI, Docker Compose, Dockerfile, Swarm
+	- **Use case**: Application deployment, development environments, microservices
+	
+	</details>
 
-### 🔒 [Ethical Hacking & Network Security](Hacking/)
-**Understand security vulnerabilities to build better defenses**
-- **Wi-Fi Security**: Dictionary attacks, Man-in-the-Middle techniques
-- **Network Analysis**: Protocol understanding and vulnerability assessment
-- **Defensive Measures**: Security hardening and monitoring strategies
-- **Educational Focus**: Ethical guidelines and responsible disclosure
+- [📊 ELK Stack](ELK/)
+	<details>
+	<summary>Elasticsearch, Logstash & Kibana</summary>
 
-### 🚀 [Apache Kafka - Distributed Streaming](Kafka/)
-**Master real-time data streaming and messaging**
-- **Core Operations**: Topic management, producer/consumer operations
-- **Modern Kafka**: KRaft mode (Zookeeper-free) configurations
-- **Docker Deployment**: Containerized Kafka clusters with scaling
-- **Security**: SASL-Plain and SASL-SSL authentication setups
-- **Production**: Performance tuning and monitoring
+	**Build comprehensive logging and monitoring solutions**
+	
+	- **What it does**: Log processing, search, data visualization, uptime monitoring
+	- **Key tech**: Elasticsearch, Logstash, Kibana, Filebeat, Heartbeat
+	- **Use case**: Log analysis, system monitoring, real-time dashboards
+	
+	</details>
 
-### ⚸️ [Kubernetes - Container Orchestration](Kubernetes/)
-**Deploy and manage containerized applications at scale**
-- **kubectl Commands**: Complete CLI reference for cluster management
-- **YAML Configurations**: Pod, Deployment, Service definitions
-- **Local Development**: Minikube setup and development workflows
-- **Production Clusters**: kubeadm cluster initialization and management
-- **Real Applications**: Multi-tier voting application examples
+- [🔒 Hacking](Hacking/)
+	<details>
+	<summary>Ethical Hacking & Network Security</summary>
 
-### 🐧 [Linux System Administration](Linux/)
-**Master Linux for server management and development**
-- **Essential Commands**: File management, user administration, process control
-- **CentOS/RHEL**: Enterprise Linux setup, firewall, Docker Swarm clusters
-- **Ubuntu Server**: Production server setup, web servers, databases, SSL
-- **Security**: SSH hardening, user management, system monitoring
-- **Automation**: Service management and system administration
+	**Understand security vulnerabilities to build better defenses**
+	
+	- **What it does**: Wi-Fi security analysis, attack methods, defensive strategies
+	- **Key tech**: Network protocols, penetration testing, security tools
+	- **Use case**: Security assessment, network hardening, vulnerability research
+	
+	</details>
 
-### 🔴 [Redis - In-Memory Data Store](Redis/)
-**High-performance caching and real-time data operations**
-- **Data Types**: Strings, Lists, Sets, Hashes, Sorted Sets
-- **Operations**: CRUD operations, atomic counters, expiration management
-- **Use Cases**: Caching, session management, real-time analytics
-- **Performance**: Memory optimization and monitoring strategies
+- [🚀 Kafka](Kafka/)
+	<details>
+	<summary>Distributed Streaming Platform</summary>
 
----
+	**Master real-time data streaming and messaging**
+	
+	- **What it does**: Message streaming, topic management, real-time data processing
+	- **Key tech**: Kafka CLI, Docker deployment, SASL authentication
+	- **Use case**: Event streaming, data pipelines, microservice communication
+	
+	</details>
 
-## 🚀 Getting Started
+- [⚸️ Kubernetes](Kubernetes/)
+	<details>
+	<summary>Container Orchestration</summary>
 
-### For Beginners
-1. **Start with Linux basics** - Essential foundation for all other technologies
-2. **Learn Docker** - Modern application deployment standard
-3. **Practice with examples** - Each folder contains hands-on exercises
+	**Deploy and manage containerized applications at scale**
+	
+	- **What it does**: Container orchestration, scaling, service management
+	- **Key tech**: kubectl, YAML configs, Minikube, kubeadm
+	- **Use case**: Production deployments, auto-scaling, service discovery
+	
+	</details>
 
-### For DevOps Engineers
-1. **Container Orchestration** - Docker → Kubernetes progression
-2. **Monitoring Stack** - ELK Stack for comprehensive logging
-3. **Data Streaming** - Kafka for real-time data processing
+- [🐧 Linux](Linux/)
+	<details>
+	<summary>System Administration</summary>
 
-### For System Administrators
-1. **Linux Administration** - CentOS/Ubuntu server management
-2. **Security Practices** - Network security and hardening
-3. **Monitoring & Logging** - ELK Stack and Redis for operations
+	**Master Linux for server management and development**
+	
+	- **What it does**: System commands, server setup, user management, security
+	- **Key tech**: Bash commands, CentOS, Ubuntu, SSH, firewalls
+	- **Use case**: Server administration, development environments, automation
+	
+	</details>
 
-## 🔧 How to Use This Repository
+- [🔴 Redis](Redis/)
+	<details>
+	<summary>In-Memory Data Store</summary>
 
-### 📖 Learning Approach
-- **Read README files** - Each technology has comprehensive documentation
-- **Follow examples** - Copy-paste ready commands and configurations
-- **Practice hands-on** - Set up local environments for experimentation
+	**High-performance caching and real-time data operations**
+	
+	- **What it does**: In-memory caching, data structures, session management
+	- **Key tech**: Redis CLI, data types, expiration, atomic operations
+	- **Use case**: Application caching, session storage, real-time analytics
+	
+	</details>
 
-### 🛠️ Practical Application
-- **Development Environment** - Use Docker and Kubernetes for local development
-- **Production Setup** - Follow Linux guides for server deployment
-- **Monitoring** - Implement ELK Stack for application monitoring
-
-### 📚 Reference Guide
-- **Quick Commands** - Fast lookup for common operations
-- **Configuration Templates** - Ready-to-use config files
-- **Troubleshooting** - Common issues and solutions
-
-## 🎓 Learning Outcomes
-
-After working through this repository, you'll be able to:
-- **Deploy applications** using Docker and Kubernetes
-- **Set up monitoring** with ELK Stack for production systems
-- **Manage Linux servers** for development and production
-- **Implement caching** strategies with Redis
-- **Process real-time data** with Kafka streaming
-- **Secure networks** and understand common vulnerabilities
+</details>
 
 ---
 
-## 📈 Continuous Learning
-
-This repository is continuously updated with:
-- **New commands** and configuration examples
-- **Best practices** from real-world implementations
-- **Security updates** and modern approaches
-- **Performance optimizations** and troubleshooting guides
-
-**💡 Tip**: Each subfolder contains detailed README files with specific examples, configurations, and learning paths tailored to that technology.
-
----
+**💡 Tip**: Each folder contains detailed README files with commands, configurations, and practical examples.
 
 *Happy Learning! 🚀*
