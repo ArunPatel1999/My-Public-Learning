@@ -1,0 +1,95 @@
+# Java
+target/
+*.class
+*.jar
+
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# Spring Boot
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+HELP.md
+
+# Database files
+*.db
+*.trace.db
+*.lock
+*.sql
+*.dump
+
+# Security files
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.crt
+
+# Firebase
+serviceaccount.json
+firebase-debug.log
+.firebase/
+
+# File uploads
+uploads/
+temp-files/
+processed/
+failed/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+streaming/
+temp-videos/
+
+# CSV and data files
+*.csv
+*.txt
+*.json
+*.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.bak
+*~
+*.swp
+*.swo
+*.orig
+*.rej

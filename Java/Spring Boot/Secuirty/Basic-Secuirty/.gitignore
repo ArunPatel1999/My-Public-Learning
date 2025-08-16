@@ -31,3 +31,38 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Spring Boot ###
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+### Spring Security ###
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.crt
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Environment files ###
+.env
+.env.*
+
+### Temporary files ###
+*.tmp
+*.bak
+*~
+*.swp
+*.swo
+
+### Maven additional ###
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties

@@ -1,0 +1,52 @@
+# Java
+target/
+*.class
+*.jar
+
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# AWS
+.aws-sam/
+samconfig.toml
+
+# Docker
+.dockerignore
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Certificate files
+*.pem
+*.key
+*.crt
+*.p12
+*.jks

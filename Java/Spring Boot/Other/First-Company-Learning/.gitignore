@@ -31,3 +31,56 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Spring Boot ###
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+### GraphQL ###
+graphql-schema.json
+
+### Firebase ###
+serviceaccount.json
+firebase-debug.log
+.firebase/
+uploads/
+
+### Mail & Notifications ###
+mail-templates/
+*.eml
+
+### Video Streaming ###
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+streaming/
+temp-videos/
+
+### Swagger ###
+swagger-ui/
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Environment files ###
+.env
+.env.*
+
+### Temporary files ###
+*.tmp
+*.bak
+*~
+*.swp
+*.swo
+
+### Maven additional ###
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties

@@ -1,0 +1,31 @@
+# Java
+target/
+*.class
+*.jar
+
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Kafka logs
+kafka-logs/
+
+# Twitter API keys (security)
+twitter4j.properties
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

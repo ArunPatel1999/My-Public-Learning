@@ -71,3 +71,29 @@ blog/bin/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### WebSocket & Video ###
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+uploads/
+streaming/
+temp-videos/
+
+### Spring Boot Additional ###
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+### Environment files ###
+.env
+.env.*
+
+### Additional temporary files ###
+*.orig
+*.rej

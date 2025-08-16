@@ -1,0 +1,26 @@
+# Java
+target/
+*.class
+*.jar
+
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Kafka logs
+kafka-logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
