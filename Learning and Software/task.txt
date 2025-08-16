@@ -1,5 +1,0 @@
-rotten tomatoes scrapping
-Create new OS
-live streaming
-flutter todo and expense app
-flutter movie app
