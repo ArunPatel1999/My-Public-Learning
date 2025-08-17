@@ -1,5 +1,25 @@
 # First-Core-Learning
 
+> **☕ Java Core Operations Hub**: This project contains comprehensive Java operations covering fundamentals, utilities, and practical implementations.
+
+## 🎯 Key Operations Implemented
+
+**In this project, I performed the following operations:**
+
+1) **QRCode generator** - ZXing-based QR code creation with custom data
+2) **Telosys Tool** - Database to entity and repository conversion
+3) **WebSocket** - Real-time client-server communication
+4) **Video Compressor** - Media compression and processing
+5) **Basic Interview Question Answer** - Common programming problems and solutions
+6) **Google Translate** - Translation API integration
+7) **PDF TO IMAGE** - PDF document to image conversion
+8) **JGIT** - Git operations and repository management
+9) **Create PDF with table data** - Dynamic PDF generation with structured data
+10) **Image Compression** - Image optimization and size reduction
+11) **Run command in terminal** - System command execution
+12) **AES encoding** - Encryption and security implementation
+13) **Generate Excel** - Spreadsheet creation with Apache POI
+
 ## 🎯 What This Project Does
 
 **Comprehensive Java fundamentals and practical implementations covering core concepts, algorithms, file operations, networking, and third-party integrations.**
@@ -168,25 +188,3 @@
 - **Intermediate**: File operations and utility integrations
 - **Advanced**: Network programming and API integrations
 - **Expert**: Performance optimization and concurrent programming
-
-
-```
-This project contains oprations.
-
-In this project, I performed the following operations:
-
-1) QRCode generator
-2) Telosys Tool (Use to convert db to entity and repo)
-3) websocket
-4) Video Compreser
-5) Basic Interview Question Answer
-6) Google Translate
-7) PDF TO IMAGE
-8) JGIT (user for git oprations)
-9) create pdf with table data
-10) image Compression
-11) run command in terminal
-12) AES encoding
-13) Genreate Excel
-
-```
